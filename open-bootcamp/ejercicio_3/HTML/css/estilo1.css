@@ -1,0 +1,28 @@
+h1{
+    background-color: rgb(89, 161, 111);
+    text-align: center;
+    margin:  15px auto;
+    border-radius: 15px;
+}
+.flex1:hover{/*el hover realza la imagen cuando el puntero esta encima de la imagen*/
+    flex-wrap: wrap; 
+    cursor: pointer;
+    opacity: 0.8;
+    -webkit-transform: scale(1.1);
+    -webkit-transition: -webkit-transform 0.2s ease-in-out 0.1s;
+    border-radius: 15px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px auto;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out 0.1s; 
+    border-radius: 15px;
+}
+body{
+    background-color: antiquewhite;
+}
+#boton{
+    background-color: rgb(201, 20, 50);
+    
+}

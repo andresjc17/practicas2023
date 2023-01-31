@@ -1,0 +1,25 @@
+body{ 
+    background-color: rgb(203, 240, 144);
+}
+#colortitulo{
+    background-color: rgb(128, 221, 221);
+}
+#colornav{
+    background-color: rgb(223, 223, 181);
+}
+#colorbarralatel{
+    background-color: rgb(99, 122, 122);
+    float: right;
+    height: 150px;/*tamaño del contenedor*/
+}
+#colorcontenidoprin{
+ background-color: rgb(122, 116, 128);
+ margin-left: 100px; 
+}
+#colorpiedepagina{
+    background-color: rgb(243, 214, 243);
+}
+li{
+    background-color: rgb(212, 21, 69);
+    display: inline;
+}

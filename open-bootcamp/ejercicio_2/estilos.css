@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(252, 252, 160);
+}
+#tituloprincipal{
+    display: flex; /*sirve para redimensionar los recuadros en diferentes dispositivos*/
+    background-color: rgb(84, 84, 250);
+    border-radius: 15px;
+    text-align: center;
+    top: 0px;
+    z-index: 8;
+    position: sticky;/*sobrepone o modifica su posicion a 
+    un recuadro y se ve cuando subes o bajas de pagina*/
+    justify-content: center;
+}
+#titulosecundario{
+    background-color: rgb(245, 77, 111);
+    border-radius: 10px;
+}
+#efecto1{
+    border-radius: 20px;
+}
+#elemento-1{
+    color: rgb(255, 0, 0);
+    font-size: 32px;
+
+}
+#elemento-2{
+    color: red;
+    font-size: 22px;
+}
+#elemento-3{
+    text-align: center;
+    padding-top: 470px;
+}
+#elemento-4{
+    position: absolute; top: 80%;
+}
+/*------------------------------------------------------*/
+.estatico{/* este atributo con el punto sirve para class*/
+    bottom: 0px;
+    left: 0px;
+    position: fixed;/*efecto flotente en la pagina*/
+    background-color: rgb(118, 247, 140);
+    margin: 15px;/* le da margen o separacion al recuadro o seccion*/
+    padding: 5px; /*mejora la apariencia del texto o recuadro*/
+    border-radius: 20px;/*da forma obalada a un recuadro*/
+}

@@ -1,0 +1,52 @@
+html{
+    background-color: rgb(218, 233, 247);
+}
+h1{
+    background-color: rgb(232, 255, 127);
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid green;
+}
+body{
+    padding: 20px;
+    margin: 0;
+}
+.escenario{
+    background-color: rgb(113, 158, 160);
+    margin: 10px 0px;
+    border: 1px solid rgb(63, 63, 63);
+    padding: 10px;
+}
+.escenario1{
+
+    width: 100%;        
+}
+
+.escenario2{
+    
+    width: 55%;
+}
+
+.pixel{
+    border: 1px solid rgb(70, 35, 35);
+    margin: 5px;
+    border-radius: 6px;
+    background-color: rgb(112, 112, 245);
+    width: 200px;
+}
+
+.porcen{
+    border: 1px solid rgb(49, 33, 33);
+    margin: 5px;
+    border-radius: 6px;
+    background-color: aquamarine;
+    width: 50%;
+}
+
+.view{
+    border: 1px solid rgb(61, 40, 40);
+    margin: 5px;
+    border-radius: 6px;
+    background-color: rgb(168, 93, 93);
+    width: 50vw;
+}

@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #161717;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(110, 202, 209);
+    border-radius: 15px;
+}
+
+h3{
+    color: white;
+}
+
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 450px;
+}
+
+.google-btn{
+    background-color: #1b73e9;
+    border-radius: 4px;
+     border: none;
+    color: white;
+    padding: 2px; /* da tamaño al recuadro */
+    display: flex;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;/* sirve para cambiar el puntero por la manito*/
+}
+
+.botones{
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
+.google-btn:hover{
+    opacity: 0.85;
+}
+
+.google-btn picture{ /*cambia el fondo y caracteristicas de la imagen del logo G de registro con Gogle*/
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn span{ /*cambia el color y tamaño de letra del registro con google*/
+    color: white;
+    padding: 10px;
+    font-weight: 500;
+    background-color: #1b73e9;
+    border-radius: 15px;
+    
+}
+.google-btn picture img{
+    width: 75%;/* cambia tamaño de la imagen del boton de registro con goole*/
+}
+.twitter-btn picture{/*cambia color de letra del boton de twiter*/
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+.twitter-btn picture img{
+    width: 90%;
+}
+.twitter-btn{
+    background-color: #1c98e7;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.twitter-btn:hover{
+    background-color: #3969a0;
+}
+
+.separator{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.separator span{
+    color: rgb(148, 149, 150);
+}
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid rgb(219, 219, 219);
+}
+
+.section-inputs{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label span{
+    font-weight: 700;
+    color: white;
+}
+
+.section-inputs label input {
+    background-color: #212121;
+    width: 65%;
+    border: none;
+    padding: 10px 35px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+}
+
+label input {
+    background-color: #212121;
+    width: 84%;
+    border: none;
+    padding: 10px 35px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+}
+label input:hover{
+    background-color: #454045;
+    border: solid 1px rgb(180, 180, 180);
+    box-shadow: 0 0 8px rgba(61, 208, 253, 0.514);
+}
+label input:focus{
+    background-color: #454045;
+    border: solid 1px rgb(180, 180, 180);
+    box-shadow: 0 0 8px rgba(204, 245, 23, 0.514);
+}
+
+.checkbox-label{
+    display: flex;
+    flex-direction: row;
+    
+}
+.checkbox-label input[type="checkbox"]{
+    width: 15px;
+}
+.checkbox-label span{
+    font-weight: 400;
+}
+
+#checkbox{
+    width: 20px;
+    height: 18px;
+}
+
+.submit-btn{
+    background-color: #eb4d89;
+    color: white;
+    font-weight: 900;
+    border-radius: 8px;
+    border: none;
+    padding: 14px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    opacity: 0.85;
+}

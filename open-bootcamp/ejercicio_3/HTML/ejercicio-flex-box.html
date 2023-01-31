@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disposición de elementos en CSS</title>
+    <link rel="stylesheet" href="css/estilo1.css">
+    <style>
+        #imag1{
+            text-align: center;
+            border-radius: 15px;
+        }
+        a:link{ /*no visitado*/
+            color: rgb(10, 202, 154);
+         }
+        a:visited{/*link visitado*/
+            color: rgb(9, 116, 116);
+        }
+        a:hover{/*cuando pasas el puntero por encima del enlace cambia de color*/
+            color: brown;
+        }
+        a:active{/*se activa este color de referencia que el link ya fue visitado*/
+            color: aquamarine;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <h1>PAISAJES ESPECTACULARES</h1>
+    </div>
+
+    <figure id="imag1">
+     <img id="imag1" class="flex1" src="imagenes/madrugada.jpg" alt="una tarde con un volcan" width="800" height="550">
+    <footer>
+        <p>f1.Ciudad popayan</p>
+    </footer>
+    </figure>
+    
+    <div class="flex">
+    <img  class="flex" src="imagenes/atardecer.jpg" alt="atardecer" width="300" height="250">
+    <img class="flex" src="imagenes/lago.jpg" alt="lago verde y patos" width="300" height="250">
+    <img class="flex" src="imagenes/elegante.jpg" alt="escaleras y luces" width="300" height="250">
+    <img class="flex" src="imagenes/garita.jpg" alt="puertas de entrada y salida con un puesto de control" width="300" height="250">
+    <img class="flex" src="imagenes/madrugada.jpg" alt="ciudad con un volcan a la vista" width="300" height="250">
+    <img class="flex" src="imagenes/noche.jpg" alt="la luna encima de la ciudad" width="300" height="250"> 
+    </div>
+    <div>
+        <a href="http://google.com">enlace informativo</a>
+        <a href="http://youtube.com">enlace videos</a>   
+    </div>
+    
+    <button id="boton">enviar</button>
+
+</body>
+</html>
